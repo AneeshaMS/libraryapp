@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background:radial-gradient(rgba(0,0, 0, 0.5), #7b8b66), url(../images/forbooks.jpg);
+    background-position: center; 
+    background-size: cover; 
+    height: 100vh;
+    width:auto;
+    color:white;
+}
+
+.navbar-brand h2{
+    color:white;
+    font-family:cursive;
+}
+/* .banner{
+
+    
+    background-position: center; 
+    background-size: cover; 
+    height: 100px;
+    width:auto;
+    color:white;
+} */
+.nav-bar{
+    background-color: rgba(0,0,0,0.5); 
+    top:0;
+    position: sticky;
+    z-index: 10;
+}
+
+
+.nav-link{
+    color: white;
+    font-weight: 700px;
+    font-size:18px;
+    font-family:cursive;
+}
+.navbar-nav li{
+    padding: 20px;
+}
+
+ul li:after{
+    content:'';
+    width:0%;
+    height:2px;
+    background:white;
+    display:block;
+    margin:auto;
+    transition: 0.5s;
+}
+ ul li:hover:after{
+    width:80%;
+    } 
+.container{
+    background-color:  rgba(0,0,0,0.5);
+    border-radius: 10px;
+    
+    padding: 15px;
+    width:30%;
+}
+.butt{
+    width:20% !important;
+    background-color: rgb(5, 58, 32);
+    outline: none !important;
+    border:none;
+    height: 40px;;
+    border-radius:10px !important;
+    color:white;
+    justify-content: center!important;
+}
+#preview{
+    width:100px;
+    height:100px;
+}
